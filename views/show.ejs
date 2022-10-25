@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>POKEMON SHOW EJS</h1>
+    <h2><%= pokemons.name %></h2>
+    <img src= <%= pokemons.img%>>
+    <ul>Pokemon Type:
+        <%= pokemons.type %>
+        </ul>
+    <ul> Stats:
+    <li><%= pokemons.stats.hp %></li>
+    <li><%= pokemons.stats.attack %></li>
+    <li><%= pokemons.stats.defense %></li>
+    </ul>
+
+   
+</body>
+</html>
+
+
+
+
+<!-- name
+image
+types (UL)
+stats (hp, attack, def)
+
+"http://img.pokemondb.net/artwork/" + "i" -->
